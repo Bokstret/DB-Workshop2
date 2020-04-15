@@ -17,7 +17,6 @@ CREATE TABLE Project (
 
 
 
-
 CREATE TABLE CollectionTime (
     projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
     launched VARCHAR(50) NOT NULL,
