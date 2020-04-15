@@ -94,7 +94,6 @@ VALUES('failed');
 INSERT INTO collectionstatus(status)
 VALUES('successful');
 
-
 ----------------------------
 -- Populate collectiontime table
 ----------------------------
