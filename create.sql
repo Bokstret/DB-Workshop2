@@ -4,22 +4,22 @@ CREATE TABLE ProjectCountry (
 
 
 CREATE TABLE ProjectCategory (
-    category VARCHAR(50) NOT NULL PRIMARY KEY
+    main_category VARCHAR(50) NOT NULL PRIMARY KEY
     );
     
     
 CREATE TABLE Project (
-    id NUMBER(20,0) NOT NULL PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
+    projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
+    titleVARCHAR(50) NOT NULL,
     country VARCHAR(20) NOT NULL REFERENCES ProjectCountry(country),
-    category VARCHAR(25) NOT NULL REFERENCES ProjectCategory(category)
+    main_category VARCHAR(25) NOT NULL REFERENCES ProjectCategory(category)
     );
 
 
 
 
 CREATE TABLE CollectionTime (
-    id NUMBER(20,0) NOT NULL PRIMARY KEY,
+    projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
     launched VARCHAR(50) NOT NULL,
     deadline VARCHAR(50) NOT NULL
     );
@@ -31,7 +31,7 @@ CREATE TABLE CollectionStatus (
 
 
 CREATE TABLE Collection(
-    id NUMBER(20,0) NOT NULL PRIMARY KEY,
+    projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
     pledged NUMBER(20,0) NOT NULL,
     goal NUMBER(20,0) NOT NULL CHECK (goal > 0),
     currancy VARCHAR(15) NOT NULL,
