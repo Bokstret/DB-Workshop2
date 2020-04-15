@@ -10,9 +10,9 @@ CREATE TABLE ProjectCategory (
     
 CREATE TABLE Project (
     projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
-    titleVARCHAR(50) NOT NULL,
+    title VARCHAR(50) NOT NULL,
     country VARCHAR(20) NOT NULL REFERENCES ProjectCountry(country),
-    main_category VARCHAR(25) NOT NULL REFERENCES ProjectCategory(category)
+    main_category VARCHAR(25) NOT NULL REFERENCES ProjectCategory(main_category)
     );
 
 
@@ -34,6 +34,6 @@ CREATE TABLE Collection(
     projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
     collected NUMBER(20,0) NOT NULL,
     goal NUMBER(20,0) NOT NULL CHECK (goal > 0),
-    currency VARCHAR(15) NOT NULL,
+    currancy VARCHAR(15) NOT NULL,
     status VARCHAR(20) NOT NULL    
     );
