@@ -18,8 +18,8 @@ GROUP BY
 cursor.execute(query) 
 
 for row in cursor:
-    print (row) 
-
+    print(row)
+    
 
 
 #Запрос 2
@@ -56,6 +56,9 @@ FROM
     collectiontime
 GROUP BY
     EXTRACT(YEAR FROM collectiontime.launched)
+ORDER BY
+    EXTRACT(YEAR FROM collectiontime.launched)
+
 """
 cursor.execute(query) 
 
