@@ -99,50 +99,50 @@ VALUES('successful');
 -- Populate collectiontime table
 ----------------------------
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000002330, '11-08-2015 12:12:28','09-10-2015 11:36:00');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000002330, '11-08-2015 12:12:28');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000004038, '12-01-2013 00:20:50','26-02-2013 00:20:50');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000004038, '12-01-2013 00:20:50');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000007540, '17-03-2012 03:24:11','16-04-2012 04:24:11');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000007540, '17-03-2012 03:24:11');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(100004721, '09-09-2013 18:19:37','09-10-2013 18:19:37');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(100004721, '09-09-2013 18:19:37');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000014025, '26-02-2016 13:38:27','01-04-2016 13:38:27');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000014025, '26-02-2016 13:38:27');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000232288, '24-05-2015 12:47:52','23-06-2015 12:47:52');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000232288, '24-05-2015 12:47:52');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000256760, '08-07-2015 21:46:53','07-08-2015 21:46:53');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000256760, '08-07-2015 21:46:53');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000335422, '10-06-2014 00:09:47','10-07-2014 00:09:47');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000335422, '10-06-2014 00:09:47');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000190427, '19-06-2013 03:16:33','19-07-2013 03:16:33');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000190427, '19-06-2013 03:16:33');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000115172, '01-03-2015 18:06:32','31-03-2015 18:06:32');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000115172, '01-03-2015 18:06:32');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000104953, '29-12-2015 16:59:29','28-01-2016 16:59:29');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000104953, '29-12-2015 16:59:29');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000071625, '03-05-2012 17:24:32','02-06-2012 17:24:32');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000071625, '03-05-2012 17:24:32');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000320473, '15-08-2013 11:16:24','13-09-2013 08:55:00');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000320473, '15-08-2013 11:16:24');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000542390, '01-03-2015 05:52:30','31-03-2015 05:52:30');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000542390, '01-03-2015 05:52:30');
 
-INSERT INTO collectiontime(projectid,launched,deadline)
-VALUES(1000567557, '24-02-2012 02:52:41','09-04-2012 02:52:41');
+INSERT INTO collectiontime(projectid,launched)
+VALUES(1000567557, '24-02-2012 02:52:41');
 
 ----------------------------
 -- Populate collection table
