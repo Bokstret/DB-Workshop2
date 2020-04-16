@@ -25,10 +25,17 @@ GROUP BY
     
     
 ---QUERY 3
+
 SELECT
-    COUNT(*) AS amount,
-    EXTRACT(YEAR FROM collectiontime.launched) AS year
+    EXTRACT(YEAR FROM collectiontime.launched) AS year,
+    COUNT(*) AS amount
 FROM
     collectiontime
 GROUP BY
+    EXTRACT(YEAR FROM collectiontime.launched)
+ORDER BY
     EXTRACT(YEAR FROM collectiontime.launched);
+
+     
+     
+
