@@ -20,8 +20,7 @@ CREATE TABLE Project (
 
 CREATE TABLE CollectionTime (
     projectid NUMBER(20,0) NOT NULL PRIMARY KEY,
-    launched TIMESTAMP NOT NULL,
-    deadline TIMESTAMP NOT NULL
+    launched TIMESTAMP NOT NULL
     );
        
 
