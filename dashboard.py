@@ -59,7 +59,7 @@ for row in cursor.fetchall():
 pie = go.Pie (labels = labels, values = Pvalues)
 py.plot([pie],auto_open = True, file_name = "Plot2",)
 
-# Запрос 3
+#Запрос 3
 print("\nЗапрос 3: Выпуск проектов по годам.\n")
 years = []
 Tvalues = []
