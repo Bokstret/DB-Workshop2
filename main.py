@@ -46,7 +46,7 @@ for row in cursor:
     print (row) 
 
 
-# Запрос 3
+#Запрос 3
 print("\nЗапрос 3: Выпуск проектов по годам.\n")
 query = """
 SELECT
