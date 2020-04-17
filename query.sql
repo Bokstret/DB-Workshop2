@@ -1,4 +1,4 @@
----QUERY 1
+---Запрос 1
 SELECT
     status,
     COUNT(*) AS amount
@@ -7,7 +7,7 @@ FROM
 GROUP BY
     status
      
----QUERY 2
+---Запрос 2
 SELECT
     project.country,
     round(COUNT(*) * 100 / t1.total, 1) AS persent
@@ -24,7 +24,7 @@ GROUP BY
     t1.total;
     
     
----QUERY 3
+---Запрос 3
 
 SELECT
     EXTRACT(YEAR FROM collectiontime.launched) AS year,
