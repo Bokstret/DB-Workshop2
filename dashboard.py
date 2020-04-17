@@ -122,4 +122,4 @@ my_dboard.insert(box_3, 'right', 2)
 py.dashboard_ops.upload(my_dash, 'Workshop2')
 
 cursor.close()
-connection.close()
+connection.close() 
