@@ -16,9 +16,9 @@ VALUES('AU');
 INSERT INTO projectcountry(country)
 VALUES('NO');
 
--------------------------
+---------------------------------
 -- Populate projectcategory table
--------------------------
+---------------------------------
 INSERT INTO projectcategory(main_category)
 VALUES('Publishing');
 
@@ -85,9 +85,9 @@ VALUES(1000542390, 'Spirits Asunder', 'GB', 'Film and Video');
 INSERT INTO Project(projectid,title,country,main_category)
 VALUES(1000567557, 'The Seven Rays', 'US', 'Music');
 
-------------------------
+----------------------------------
 -- Populate collectionstatus table
-------------------------
+----------------------------------
 INSERT INTO collectionstatus(status)
 VALUES('failed');
 
@@ -95,9 +95,9 @@ INSERT INTO collectionstatus(status)
 VALUES('successful');
 
 
-----------------------------
+--------------------------------
 -- Populate collectiontime table
-----------------------------
+--------------------------------
 
 INSERT INTO collectiontime(projectid,launched)
 VALUES(1000002330, '11-08-2015 12:12:28');
