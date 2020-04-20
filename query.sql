@@ -5,7 +5,7 @@ SELECT
 FROM
     collection
 GROUP BY
-    status
+    status;
      
 ---Запрос 2
 SELECT
